@@ -43,6 +43,8 @@ A savoir quand même qu'il y a une branche particulière: si tu la nomme gh-page
 > https://TonPseudo.github.io/NomDuRepository/
 ```
 ça va te permettre d'afficher le fichier sur ton navvigateur (si c'est du html ça va t'afficher la page correspondante).
+Par exemple, le mien c'est [par ici](https://jepellet.github.io/Jeremy_B3/).
+
 
 **Bon c'est bien beau tout ça, mais quand est-ce que tu finis ton explication?**
 
