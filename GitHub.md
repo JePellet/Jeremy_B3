@@ -17,14 +17,14 @@ Ensuite, ça permet aussi de partager ton code : tu peux choisir de publier publ
 
 **Ok, ça à l'air sympa!**
 
-Grave! Hésite pas à visiter [le site](https://github.com/), tu verras il est super bien fait!
+Grave! Hésite pas à visiter [le site](https://github.com/), tu verras il est super pratique!
 Oh, j'ai failli oublié de te parler des repository et des branches!
 
 **A tes souhaits?..**
 
 Les repository, en gros c'est des dossier dans lesquels tu va publier tes fichiers qui contiennent ton code. C'est comme ça que tu vas t'y retrouver si tu as pleins de sites différents. Il y a une appli desktop de GitHub où tu vas pouvoir gérer tes fichiers. A chaque fois que tu apporte des modifications à ton fichier GitHub les repère, les met en valeur avec l'ancienne et la nouvelle version de ton code et te propose de le commit. Quand tu as commit ton fichier, il est mis dans ton repository.
 
-**Ok, donc là on a fini si j'ai bien compris**
+**Ok, donc là on a fini si j'ai bien compris ~~, je peux retourner dormir~~**
 
 Eh non, mais pas loin! Une fois commit, il manque encore à voir comment le publier sur le site. Pour ça tu as un bouton publish (en haut à droite de l'image)
 
@@ -42,5 +42,8 @@ A savoir quand même qu'il y a une branche particulière: si tu la nomme gh-page
 ```
 > https://TonPseudo.github.io/NomDuRepository/
 ```
-
 ça va te permettre d'afficher le fichier sur ton navvigateur (si c'est du html ça va t'afficher la page correspondante).
+
+**Bon c'est bien beau tout ça, mais quand est-ce que tu finis ton explication?**
+
+Eh bien ça y est, on a fini, tu es libre! Libre d'utiliser GitHub comme bon te semble!
