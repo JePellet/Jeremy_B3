@@ -28,9 +28,9 @@ Les repository, en gros c'est des dossier dans lesquels tu va publier tes fichie
 
 Eh non, mais pas loin! Une fois commit, il manque encore à voir comment le publier sur le site. Pour ça tu as un bouton publish (en haut à droite de l'image)
 
-```
+
 ![Image de l'app](https://i1.wp.com/www.returngis.net/wp-content/uploads/2015/12/GitHub-Desktop-Repository-Open-in-Explorer.png?ssl=1)
-```
+
 
 Ca te permet de mettre toute ta branche en ligne, sur le site.
 
@@ -39,7 +39,8 @@ Ca te permet de mettre toute ta branche en ligne, sur le site.
 Effectivement, c'est parce que si tu considère les différentes *versions* de ton code sur une ligne temporelle de droite à gauche, tu peux partir à partir d'une versions donnée sur deux alternatives pour ton code. Si tu as envie de tester une fonctionnalité ou autre, tu crée une *branche*, tu ne reste pas sur ta ligne horizontale (qui continuera avec ton code A) mais tu crée une fork de ton code (code B). Ca va te permettre de tester plusieurs alternatives et de choisir celle que tu préfère, ou mixer des éléments de l'un sur l'autre etc... Tu fais ce que tu veux!
 
 A savoir quand même qu'il y a une branche particulière: si tu la nomme gh-pages, et que tu tape l'adresse
-
+```
 > https://TonPseudo.github.io/NomDuRepository/
+```
 
 ça va te permettre d'afficher le fichier sur ton navvigateur (si c'est du html ça va t'afficher la page correspondante).
