@@ -1,4 +1,6 @@
-# C'est quoi GitHub?
+# Rendu du 26/09 en Dev
+
+## C'est quoi GitHub?
 
 C'est un outil de :
 - versionning
