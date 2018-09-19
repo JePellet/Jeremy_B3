@@ -48,4 +48,4 @@ Par exemple, le mien c'est [par ici](https://jepellet.github.io/Jeremy_B3/).
 
 **Bon c'est bien beau tout ça, mais quand est-ce que tu finis ton explication?**
 
-Eh bien ça y est, on a fini, tu es libre! Libre d'utiliser GitHub comme bon te semble!
+Eh bien ça y est, on a fini, tu es libre! Libre d'utiliser GitHub comme bon te semble !
