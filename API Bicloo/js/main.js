@@ -25,21 +25,22 @@ fetch('http://api.citybik.es/v2/networks/bicloo').then(function(res) {
 				' // Vélo(s) libre(s) : ' +
 				stations[i].free_bikes;
 
-      } else if (stations[i].extra.status === "CLOSED") {
-      	currentLi.classList.add('closed');
+
+			//LA 2E CONDITION NE MARCHE PAS : free_bikes === 0
+		} else if ((stations[i].extra.status === "CLOSED") || (stations[i].free_bikes === 0)) {
+      	currentLi.classList.add('noBikes');
 
 				//Ecriture du contenu de la puce
 				currentLi.textContent = stations[i].name +
 				'		EST FERMEE'
       } else {
-				//Ecriture du contenu de la puce
 				currentLi.textContent = stations[i].name +
 	      ' // Places libres : ' +
 	      stations[i].empty_slots +
 	      ' // Vélo(s) libre(s) : ' +
 	      stations[i].free_bikes;
       }
-    	
+
       //Ajout de la puce et du passage à la ligne à la page html
     	liste.appendChild(currentLi);
 			liste.appendChild(currentBr);
