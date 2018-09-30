@@ -1,7 +1,32 @@
-.prop {
-  background: orange;
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body {
+  background-color: #666699;
 }
 
-.propZero {
+h1 {
+  font-family: 'Pacifico', cursive, sans-serif;
+  font-size: 5em;
+  text-align: center;
+}
+
+.display {
+  width: 50%;
+  margin: auto;
+}
+
+li {
+  color: white;
+}
+
+.prop {
+  background: orange;
+  color: black;
+  font-size: 1.3em;
+}
+
+.closed {
   background: red;
+  color: white;
+  font-size: 1.5em;
 }
