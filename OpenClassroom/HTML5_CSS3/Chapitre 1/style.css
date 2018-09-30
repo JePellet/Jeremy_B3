@@ -1,0 +1,38 @@
+@font-face {
+    font-family: DeliciousRoman;
+    src: url(http://www.font-face.com/fonts/delicious/Delicious-Roman.otf);
+    font-weight:400;
+}
+
+body {
+  background-image: url("bg_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  color: white;
+  font-family: DeliciousRoman, sans-serif;
+}
+
+h1 {
+  text-shadow: 6px 6px 4px lightblue;
+}
+
+h1, p {
+  text-align: center;
+}
+
+h2 {
+  color: #ffcc66;
+}
+
+img {
+  float: right;
+  border-width: 0.3em;
+  border-style: groove;
+  border-color: lightblue;
+}
+
+img:hover {
+  opacity: 0.3;
+}
