@@ -16,27 +16,36 @@ h2 {
 }
 
 strong {
-  background: orange;
+  background: #FFC30D;
   color: black;
 }
 
-.display {
-  width: 50%;
-  margin: auto;
+.parent {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-li {
+div {
   color: white;
 }
 
+.display {
+  width: 30%;
+  margin: 10px;
+  text-align: left;
+  border-style: ridge;
+  border-width: medium;
+  border-color: black;
+}
+
 .prop {
-  background: orange;
+  background: #FFC30D;
   color: black;
   font-size: 1.3em;
 }
 
 .noBikes {
-  background: red;
+  background: #FF0000;
   color: white;
   font-size: 1.5em;
 }
