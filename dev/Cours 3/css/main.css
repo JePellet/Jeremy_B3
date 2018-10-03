@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  height: 200vh;
+  overflow-x: hidden;
+}
+
+
+.burger {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 10px;
+  right:10px;
+  background-color: red;
+  z-index: 1;
+}
+
+header {
+  display:flex;
+  justify-content: flex-end;
+}
+
+nav {
+  background-color: blue;
+  height: 100vh;
+  width: 30vw;
+  transform: translateX(30vw);
+  transition: transform 700ms;
+}
+
+nav.visible {
+  transform: translateX(0vw);
+}
