@@ -25,27 +25,22 @@ span {
   flex-wrap: wrap;
 }
 
-div {
-  color: white;
-}
-
 .display {
-  width: 30%;
+  width: 15%;
   margin: 10px;
   text-align: left;
   border-style: ridge;
   border-width: medium;
   border-color: black;
+  color: white;
 }
 
 .prop {
   background: #FFC30D;
   color: black;
-  font-size: 1.3em;
 }
 
 .noBikes {
   background: #FF0000;
   color: white;
-  font-size: 1.5em;
 }

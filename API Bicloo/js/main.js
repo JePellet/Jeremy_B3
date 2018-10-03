@@ -1,4 +1,4 @@
-fetch('http://api.citybik.es/v2/networks/bicloo').then(function(res) {
+fetch('https://api.citybik.es/v2/networks/bicloo').then(function(res) {
 	return res.json().then(function(data) {
     var stations = data.network.stations;
 
@@ -16,6 +16,15 @@ fetch('http://api.citybik.es/v2/networks/bicloo').then(function(res) {
       var currentDiv = document.createElement('div');
 			currentDiv.classList.add('display');
 
+			var currentDivName = document.createElement('div');
+			currentDivName.classList.add('name');
+
+			var currentDivEmptySlots = document.createElement('div');
+			currentDivName.classList.add('emptySlots');
+
+			var currentDivFreeBikes = document.createElement('div');
+			currentDivFreeBikes.classList.add('freeBikes');
+
 
 			//Assignation de classes pour les stations qui ont moins de 50% des vélos dispo
       if (stations[i].free_bikes === 0) {
@@ -25,12 +34,15 @@ fetch('http://api.citybik.es/v2/networks/bicloo').then(function(res) {
 			}
 
       //Ecriture du contenu du div
-    	currentDiv.textContent = stations[i].name +
-      ' // Places libres : ' + stations[i].empty_slots +
-      ' // Vélo(s) libre(s) : ' + stations[i].free_bikes;
+    	currentDivName.textContent = stations[i].name;
+      currentDivEmptySlots.textContent = 'Places libres : ' + stations[i].empty_slots;
+      currentDivFreeBikes.textContent = 'Vélo(s) libre(s) : ' + stations[i].free_bikes;
 
       //Ajout de la puce et du passage à la ligne à la page html
-    	liste.appendChild(currentDiv);
+      liste.appendChild(currentDiv);
+			currentDiv.appendChild(currentDivName);
+			currentDiv.appendChild(currentDivEmptySlots);
+			currentDiv.appendChild(currentDivFreeBikes);
     }
 
 	});
