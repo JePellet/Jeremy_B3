@@ -19,4 +19,6 @@ var myBurger = document.querySelector('.burger');
 
 myBurger.addEventListener("click", function() {
   document.querySelector('nav').classList.toggle('visible');
+  document.getElementById('burgerIcon').classList.toggle('visible');
+  document.getElementById('closeIcon').classList.toggle('visible');
 });

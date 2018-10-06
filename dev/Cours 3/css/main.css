@@ -4,30 +4,81 @@ body {
   overflow-x: hidden;
 }
 
-
-.burger {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  top: 10px;
-  right:10px;
-  background-color: red;
-  z-index: 1;
-}
-
 header {
   display:flex;
   justify-content: flex-end;
 }
 
+.burger {
+  position: absolute;
+  height: 50px;
+  width: 50px
+  top: 10px;
+  right:10px;
+  z-index: 1;
+}
+
+#burgerIcon {
+  transform: scale(1,1);
+  transition: transform 700ms;
+}
+
+#burgerIcon.visible {
+  display: none;
+  transform: scale(0.1,0.1);
+}
+
+#closeIcon {
+  display: none;
+  transform: scale(0.1,0.1);
+}
+
+#closeIcon.visible {
+  display: block;
+  transform: scale(1,1);
+  transition: transform 700ms;
+}
+
+img {
+  display: block;
+  width: 50px;
+  height: auto;
+}
+
 nav {
-  background-color: blue;
+  background-color: rgb(39, 102, 122);
   height: 100vh;
-  width: 30vw;
-  transform: translateX(30vw);
+  width: 20vw;
+  transform: translateX(20vw);
+  transition: transform 700ms;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.menu, .about, .contact {
+  color: white;
+  font-family: sans-serif;
+  font-size: 5em;
+  transform: translateX(20vw);
   transition: transform 700ms;
 }
 
 nav.visible {
   transform: translateX(0vw);
+}
+
+nav.visible .menu {
+  transform: translateX(2vw);
+  transition: transform 800ms;
+}
+
+nav.visible .about {
+  transform: translateX(2vw);
+  transition: transform 900ms;
+}
+
+nav.visible .contact {
+  transform: translateX(2vw);
+  transition: transform 1000ms;
 }
