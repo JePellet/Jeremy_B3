@@ -10,7 +10,7 @@ header {
 }
 
 .burger {
-  position: absolute;
+  position: fixed;
   height: 50px;
   width: 50px
   top: 10px;
@@ -46,6 +46,7 @@ img {
 }
 
 nav {
+  position : fixed;
   background-color: rgb(39, 102, 122);
   height: 100vh;
   width: 20vw;
@@ -75,10 +76,24 @@ nav.visible .menu {
 
 nav.visible .about {
   transform: translateX(2vw);
-  transition: transform 900ms;
+  transition: transform 1000ms;
 }
 
 nav.visible .contact {
   transform: translateX(2vw);
-  transition: transform 1000ms;
+  transition: transform 1200ms;
+}
+
+.surprise {
+  display: none;
+}
+
+.surprise img {
+  display block;
+  height: 50vh;
+  width: auto;
+}
+
+.surprise.visible {
+  display: block;
 }

@@ -2,6 +2,7 @@ var myDiv = document.querySelector(".clickMe");
 
 myDiv.addEventListener('click', function() {
   console.log("test");
+  document.querySelector(".surprise").classList.toggle('visible');
 });
 
 var threshold = 400;
