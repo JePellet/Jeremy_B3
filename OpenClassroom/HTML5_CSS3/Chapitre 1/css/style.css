@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One');
 
+@media all and (max-width: 1024px) {
+  .bandeau {
+    display: none;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+}
+
 body {
   background-image: url("../images/bg_image.jpg");
   background-repeat: no-repeat;
@@ -17,7 +30,7 @@ body {
   background-image: linear-gradient(#151d2a,#24334a);
   height: 100vh;
   width: 5vw;
-  float:left;
+  float: left;
 }
 
 header {
