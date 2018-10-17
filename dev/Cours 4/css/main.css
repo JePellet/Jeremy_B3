@@ -12,6 +12,7 @@ body {
   margin: auto;
   display: flex;
   flex-direction: column;
+  background-color: white;
 }
 
 .row {
@@ -31,11 +32,6 @@ body {
 
 .egalite {
   background-color: rgba(200, 46, 46, 0.85);
-}
-
-.scoreDiv {
-  display: flex;
-  flex-direction: column;
 }
 
 img {
