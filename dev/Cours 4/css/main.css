@@ -61,6 +61,7 @@ button {
 button:hover {
   background-image: linear-gradient(25deg, #172a2c, #3a5e47, #5f9864, #86d681);
   border: none;
+  text-transform: uppercase;
   transform: scale(1.3);
   transition: transform 1s;
 }
